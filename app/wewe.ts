@@ -1,6 +1,6 @@
 namespace Test {
 
     export class Abc {
-        public data : string = "TEST";
+        public data : string = "TESTxx";
     }
 }
