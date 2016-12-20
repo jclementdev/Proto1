@@ -1,3 +1,3 @@
-class Bidon {
+class Bidon2 {
     
 }
