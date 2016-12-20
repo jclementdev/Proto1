@@ -1,0 +1,17 @@
+﻿<div>
+    <div class="ui horizontal label">WorkOrderId</div>
+    <input [(ngModel)]="worId" />
+</div>
+<button class="ui primary button" (click)="onClickUpdate()">Load</button>
+
+<gti-text [display]="d1" [text]="t1"></gti-text>
+<gti-text [display]="d2" [text]="t2"></gti-text>
+<gti-datetime-picker [display]="d3" [date]="t3"></gti-datetime-picker>
+
+<button class="ui primary button" (click)="addItem()">Add</button>
+<button class="ui primary button" (click)="removeItem()">Remove</button>
+<button class="ui primary button" (click)="modifyItem()">Modify</button>
+<div gtiDataGrid [gridData]="gridData" style="width:50%"></div>
+
+<button>
+</button>
